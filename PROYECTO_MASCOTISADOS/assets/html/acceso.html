@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro mascotisados</title>
+    <link rel="stylesheet" href="css/styles_pag_registro.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <section>
+            <h1 id="header" class="textos-header">Lo que tu mascota necesita </h1>
+            <h2 style="font-size: 40px;" class="textos-header">al alcance de un click...</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: hsl(0, 0%, 100%);">
+                    </path>
+                </svg>
+        </div>
+        <main>
+            <section class="contenedor registro">
+                <h2 class="titulo">Registro</h2>
+                <div class="contenedor-registro">
+                    <img  src="css/img/logo.png" alt="">
+                  
+            <form action="acceso.php" method="post">
+                <div class="mb-6">
+                <label for="nickname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your nickname</label>
+                <input type="text" id="nickname" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="your nickname" required>
+                </div>
+                <div class="mb-6">
+                <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+                <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+                </div>
+                
+                <a href="recuperar_contraseña.html" class="text-purple-500 inline-flex items-center mt-3">
+                    <font style="vertical-align: inherit;">
+                      <font style="vertical-align: inherit;">Recuperar contraseña </font>
+                    </font>
+                </a>
+                  <br>
+                <button type="submit" class="text-white bg-violet-700 hover:bg-violet-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-violet-700 dark:hover:bg-violet-700 dark:focus:bg-violet-700">Enviar</button>
+                
+            </form>
+                  
+</body>
+</html>
