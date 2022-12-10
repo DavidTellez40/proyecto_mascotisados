@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: rgb(126, 14, 230);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+/*header*/
+header {
+    width: 100%;
+    height: 500px;
+    background: #654ea3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(300, 95%, 50%, 0.671), hsla(256, 89%, 59%, 0.603)), url(../img/animals-g2328c09b6_1920.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    color: whitesmoke;
+    font-weight: 300px;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+nav>a:hover {
+    text-decoration: underline;
+}
+
+.textos-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 50px;
+    color: white;
+}
+
+h2 {
+    font-weight: 300;
+    color: white;
+
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+}
+
+/*about us*/
+
+.sobre-nosotros {
+    margin-top: 20%;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-about-us {
+
+    width: 44%;
+    height: 30%;
+    padding: 10px;
+
+}
+
+.sobre-nosotros .contenido-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 span {
+    background: blueviolet;
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 40px 10px;
+    font-weight: 300px;
+    text-align: justify;
+    justify-content: justify;
+}
+
+
+/*Galeria*/
+
+.portafolio {
+    background: whitesmoke;
+}
+
+.galeria-port {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imagen-port {
+
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 0 0 6 0 rgba rgb(0, 0, 0, .5);
+}
+
+.imagen-port>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/*Clientes*/
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cards .card {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(100, 4, 189);
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+.cards .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.cards .card>.contenido-texto-card {
+    width: 60%;
+    color: white;
+    text-align: justify;
+}
+
+/*productos*/
+.about-products {
+    background: whitesmoke;
+    padding-bottom: 30px;
+}
+
+.about-products .contenedor-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.producto-ind {
+    width: 30%;
+    text-align: center;
+}
+
+.producto-ind img {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: solid rgb(100, 4, 189);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.producto-ind h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4b19d4;
+
+}
+
+/*footer*/
+footer {
+    background: #414141;
+    padding: 40px 0 20px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+
+.content-foo {
+    text-align: center;
+
+
+}
+
+.content-foo h4 {
+    color: white;
+    border-bottom: 3px solid rgb(185, 180, 203);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p {
+    color: rgb(176, 176, 176);
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #868686;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*responsive*/
+
+@media screen and (max-width:900px) {
+    header {
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos {
+        width: 90%;
+
+
+    }
+
+    .img-about-us {
+        width: 80%;
+        margin: 10px;
+    }
+
+    /*Galeria*/
+    .imagen-port {
+        width: 44%;
+    }
+
+    /*clientes*/
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cards .card {
+        width: 80%;
+    }
+
+    .contenido-texto-card p {
+        justify-content: justify;
+        text-align: justify;
+        align-items: justify;
+
+    }
+
+    .contenido-texto-card h4 {
+        justify-content: justify;
+        text-align: justify;
+        align-items: center;
+        margin-top: 50%;
+    }
+
+    .cards .card:first-child {
+        margin-bottom: 30px;
+    }
+
+    /*productos*/
+    .contenedor-products {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .producto-ind {
+        width: 70%;
+        text-align: center;
+    }
+
+    .producto-ind:nth-child(1),
+    :nth-child(2) {
+        margin-bottom: 60px;
+    }
+
+    .producto-ind img {
+        width: 80%;
+    }
+
+    /*footer*/
+    footer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contenedor-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:500px) {
+    nav {
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav>a {
+        margin-right: 5px;
+    }
+
+    h1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    header {
+        height: 425px;
+    }
+
+    /*Galeria*/
+    .imagen-port {
+        width: 80%;
+    }
+
+    /*clientes*/
+    .cards .card {
+        width: 80%;
+        height: 20%;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contenido-texto-card p {
+
+        justify-content: justify;
+        text-align: justify;
+        align-items: center;
+
+    }
+
+    .cards .card img {
+        margin-top: 20px;
+    }
+
+    /*productos*/
+
+    .producto-ind {
+        width: 85%;
+    }
+
+    .producto-ind:nth-child(1),
+    :nth-child(2) {
+        margin-bottom: 40px;
+    }
+
+    .producto-ind img {
+        width: 90%;
+    }
+
+    /*footer*/
+    footer {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contenedor-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
