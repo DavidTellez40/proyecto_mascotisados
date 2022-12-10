@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro mascotisados</title>
+    <link rel="stylesheet" href="../../css/styles_pag_registro.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+
+            <a href="cerrarSesion.php">cerrarSesion</a>
+
+
+        </nav>
+        <section>
+            <h1 id="header" class="textos-header">Lo que tu mascota necesita </h1>
+            <h2 style="font-size: 40px;" class="textos-header">al alcance de un click...</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: hsl(0, 0%, 100%);">
+                </path>
+            </svg>
+        </div>
+        <br><br><br><br><br><br>
+
+        <h1 style="font-size: 30px;">Digite el producto a eliminar</h1><br>
+        <form action="eliminar_producto.php" method="post">
+
+
+
+            <center> <input type="text" name="nombre" class="border-4 border-purple-500 w-80  rounded-md rounded-xl">
+            </center>
+
+
+            <br>
+            <center>
+                <input type="submit" value="buscar y borrar"
+                    class="text-white bg-violet-700 hover:bg-violet-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-violet-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            </center>
+        </form>
+        <br><br><br><br>
+        <div class="rounded-md shadow">
+            <a href="admi.php"
+                class="flex w-full items-center justify-center rounded-md border border-transparent bg-violet-700 px-8 py-3 text-base font-medium text-white hover:bg-violet-700 md:py-4 md:px-10 md:text-lg">Volver</a>
+        </div>
+
+
+</body>
+
+</html>
