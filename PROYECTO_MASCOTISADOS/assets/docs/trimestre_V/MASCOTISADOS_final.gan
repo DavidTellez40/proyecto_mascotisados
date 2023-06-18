@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Mascotisados" company="Porque no?" webLink="https://mascotisado.000webhostapp.com/" view-date="2021-12-13" view-index="0" gantt-divider-location="368" resource-divider-location="300" version="3.2.3247" locale="es_ES">
+    <description>
+        <![CDATA[A continuaciòn se presenta las fases para el desarrollo del sistema de informaciòn  de la tienda Mascotisados, en la cual se hace enfasis en el manejo de inventario online y  la promociòn estrategica de los productos y servicios propuestos por la misma.]]>
+    </description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="76" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="76" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ccccff #ff0000 #f4f4f4 #99ccff #6666ff #66ff00 #ccffcc #ff6699 #ff9999 #ffcccc]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="206" order="0"/>
+        <field id="1" name="Función" width="90" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Primer contacto con el cliente - entrevista" color="#ccccff" meeting="false" start="2022-02-09" duration="5" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Se realiza el primer acercamiento al cliente donde se detalla cual es la necesidad y los requerimientos iniciales, lo cual ayuda a iniciar el planteamiento de objetivos y alcance del proyecto.]]>
+            </notes>
+        </task>
+        <task id="1" name="Definiciòn del planteamiento del problema." color="#ccccff" meeting="false" start="2022-02-15" duration="4" complete="0" thirdDate="2022-02-10" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se realiza la definiciòn del problema a tratar, el cual es clarificado por la fase de reconocimiento del mismo.]]>
+            </notes>
+        </task>
+        <task id="2" name="Definiciòn de los objetivos." color="#ccccff" meeting="false" start="2022-02-18" duration="4" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="Definiciòn de la justificaciòn del proyecto." color="#ccccff" meeting="false" start="2022-02-23" duration="4" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="Definiciòn del alcance del proyecto." color="#ccccff" meeting="false" start="2022-02-28" duration="4" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Levantamiento de requerimientos" color="#ff0000" meeting="false" start="2022-03-04" duration="30" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Acorde a los datos arrojados por la investigaciòn del mercado, el acercamiento con el cliente y el desarrollo de encuestas y entrevistas se procede al planteamiento de los requerimientos del sistema necesarios para abordar el desarrollo del mismo.]]>
+            </notes>
+        </task>
+        <task id="6" name="Creaciòn de diagrama de casos de uso" color="#ccccff" meeting="false" start="2022-04-15" duration="30" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se realiza el anàlisis del sistema a realizar y con ello se definen los casos de uso mediante el diagrama UML.]]>
+            </notes>
+        </task>
+        <task id="7" name="Creaciòn de diagrama de clases" color="#ccccff" meeting="false" start="2022-05-27" duration="15" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Creaciòn de diagrama de objetos" color="#ccccff" meeting="false" start="2022-06-17" duration="30" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="Desarrollo de mockup inicial" color="#ccccff" meeting="false" start="2022-07-29" duration="15" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Se desarrolla el primer bosquejo de la apariencia y organizaciòn de la pagina.]]>
+            </notes>
+        </task>
+        <task id="10" name="Definiciòn de mockup final" color="#ccccff" meeting="false" start="2022-08-19" duration="30" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="11" name="Inicio creaciòn de prototipo HTML/CSS" color="#99ccff" meeting="false" start="2022-08-30" duration="60" complete="0" thirdDate="2022-03-03" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Teniendo en cuenta el diseño del mockup se procede a trasladar el diseño hacia el prototipo el cual se realiza en: HTML, CSS.]]>
+            </notes>
+        </task>
+        <task id="12" name="Presentaciòn prototipo HTML/CSS/JAVASCRIPT" color="#ff0000" meeting="false" start="2022-11-22" duration="30" complete="0" thirdDate="2022-03-03" thirdDate-constraint="0" priority="4" expand="true">
+            <notes>
+                <![CDATA[Se da entrega del prototipo.]]>
+            </notes>
+        </task>
+        <task id="14" name="Inicio desarrollo de las vistas del sitio web (html/php/MySQL)" color="#99ccff" meeting="false" start="2023-01-03" duration="30" complete="0" thirdDate="2022-03-10" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se inicia el desarrollo de las diferentes vistas que tendrà la pagina esto teniendo en cuenta los requerimientos establecidos.]]>
+            </notes>
+        </task>
+        <task id="15" name="Revisiòn de desarrollo de las vistas del sitio web (html/php/MySQL)" color="#ccccff" meeting="false" start="2023-02-14" duration="30" complete="0" thirdDate="2022-03-10" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="Presentaciòn final de desarrollo de las vistas del sitio web (html/php/MySQL)" color="#ff0000" meeting="false" start="2023-03-28" duration="15" complete="0" thirdDate="2022-04-01" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="17" name="Inicio creaciòn de base de datos MysQL" color="#99ccff" meeting="false" start="2023-04-18" duration="30" complete="0" thirdDate="2022-04-06" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se realizan las siguientes actividades:
+
+1. Creaciòn del MER (Modelo entidad relaciòn).
+2. Creaciòn del MR (Modelo relacional).
+3. Se realiza el proceso de normalizaciòn.
+4. Se define el diccionario de datos.
+]]>
+            </notes>
+        </task>
+        <task id="18" name="Conexiòn de la bbdd a las vistas" color="#ff0000" meeting="false" start="2023-05-02" duration="15" complete="0" thirdDate="2022-04-07" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Se realiza la conexiòn entre la base de datos y las vistas establecidas.]]>
+            </notes>
+        </task>
+        <task id="19" name="Realizaciòn de pruebas unitarias" color="#8cb6ce" meeting="false" start="2023-05-08" duration="8" complete="0" thirdDate="2022-04-07" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se realizan pruebas unitarias de caja blanca y negra.]]>
+            </notes>
+        </task>
+        <task id="20" name="Documentaciòn de pruebas unitarias" color="#8cb6ce" meeting="false" start="2023-05-18" duration="7" complete="0" thirdDate="2022-05-02" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se realizan la documentaciòn de las pruebas.]]>
+            </notes>
+        </task>
+        <task id="21" name="Instalaciòn y configuraciòn (hosting gratuito)" color="#ff0000" meeting="false" start="2023-05-29" duration="15" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Se realizan las siguientes actividades:
+
+1. Creaciòn de usuario.
+2. Se creo un sitio web.
+3. Subir el codigo al hosting.
+4. Se realiza el proceso de migraciòn de la bbdd.
+5. Se generò la conexiòn.
+6. Se cuadraron las rutas de navegaciòn.
+7. Se probò el funcionamiento.]]>
+            </notes>
+        </task>
+        <task id="22" name="Creaciòn de manual de usuario" color="#99ccff" meeting="false" start="2023-06-19" duration="5" complete="0" thirdDate="2022-05-12" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="23" name="Creaciòn de manual de implementaciòn" color="#99ccff" meeting="false" start="2023-06-19" duration="5" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes>
+                <![CDATA[Creaciòn del manual de implementacion siguiendo las fases del mismo:
+
+1. Planificacion
+2. Consulta
+3.paramerrizacion 
+4. Migración
+5. Formación
+6. Arranque
+7. Seguimiento]]>
+            </notes>
+        </task>
+        <task id="24" name="Creaciòn de manual tecnico" color="#99ccff" meeting="false" start="2023-06-23" duration="10" complete="0" thirdDate="2023-06-19" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+        <task id="25" name="Presentaciòn final" color="#ff0000" meeting="false" start="2023-07-07" duration="10" complete="0" thirdDate="2023-06-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Jason David Sanchez" function="SoftwareDevelopment:2" contacts="jason.snchez@misena.edu.co" phone=""/>
+        <resource id="1" name="David Tellez" function="SoftwareDevelopment:8" contacts="david_tellez@misena.edu.co" phone=""/>
+        <resource id="2" name="Julian Wilches" function="SoftwareDevelopment:4" contacts="julian@misena.edu.co" phone=""/>
+        <resource id="3" name="Maria Daniela Salcedo Mejìa" function="SoftwareDevelopment:9" contacts="mdsalcedo83@misena.edu.co" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="6" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="SoftwareDevelopment:8" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="SoftwareDevelopment:9" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="3" function="SoftwareDevelopment:9" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
